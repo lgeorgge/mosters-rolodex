@@ -1,0 +1,31 @@
+.search-box {
+	display: block;
+	margin: 50px auto;
+	width: 300px;
+	padding: 15px 25px;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	border-radius: 30px;
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(5px);
+	outline: none;
+	font-size: 16px;
+	color: white;
+	transition: all 0.3s ease;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.search-box::placeholder {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.search-box:focus {
+	border-color: rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.15);
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+	transform: translateY(-2px);
+}
+
+.search-box:hover {
+	border-color: rgba(255, 255, 255, 0.4);
+	background: rgba(255, 255, 255, 0.12);
+}

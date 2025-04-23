@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,23 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	background: linear-gradient(to right, rgb(123, 1, 123), rgb(1, 227, 227));
+	font-family: sans-serif;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.app-title {
+	margin-top: 75px;
+	margin-bottom: 50px;
+	font-size: 80px;
+	color: rgb(220, 215, 217);
+	font-family: "bigelow rules";
 }
